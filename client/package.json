@@ -1,0 +1,16 @@
+{
+  "name": "toroserver-workspace-app",
+  "version": "1.0.0",
+  "author": "POTI",
+  "license": "MIT",
+  "repository": "https://github.com/potistudio/Toroserver-Workspace-App",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.2.6"
+  }
+}
