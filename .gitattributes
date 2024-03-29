@@ -1,0 +1,27 @@
+
+*                      text=auto eol=lf
+
+.editorconfig     text
+.gitattributes    text
+.gitignore        text
+LICENSE           text
+pnpm-lock.yaml    text -diff
+
+*.md              text
+*.env             text
+*.json            text
+*.yaml            text
+
+*.html            text
+*.svelte          text
+*.css             text
+*.scss            text
+*.js              text
+*.ts              text
+
+*.jpg             binary
+*.png             binary
+*.svg             text
+*.mp3             binary
+*.mp4             binary
+*.ttf             binary
