@@ -3,6 +3,30 @@
 
 <main>
 	<h1>Hello World</h1>
+
+	<form action="/api" method="POST">
+		<input type="text" name="a" id="a">
+		<button type="button"></button>
+	</form>
 </main>
 
-<style lang="scss"></style>
+<style lang="scss">
+	input {
+		appearance: none;
+		position: absolute;
+		bottom: 0;
+		width: calc(100% - 64px);
+		height: 32px;
+		padding: 0 4px;
+		font-size: 16px;
+	}
+
+	button {
+		appearance: none;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 64px;
+		height: 32px;
+	}
+</style>
