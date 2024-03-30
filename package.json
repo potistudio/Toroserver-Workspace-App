@@ -1,4 +1,15 @@
+
 {
+	"name": "toroserver-workspace-app",
+	"version": "1.0.0",
+	"author": "POTI",
+	"license": "MIT",
+	"private": true,
+	"repository": "https://github.com/potistudio/Toroserver-Workspace-App",
+	"scripts": {
+		"dev": "pnpm run --filter \"./client\" --parallel dev",
+		"tunnel": "cloudflared tunnel --url http://localhost:5173"
+	},
 	"dependencies": {
 		"@discord/embedded-app-sdk": "^1.1.0"
 	}

@@ -1,10 +1,4 @@
 {
-  "name": "toroserver-workspace-app",
-  "version": "1.0.0",
-  "author": "POTI",
-  "license": "MIT",
-  "repository": "https://github.com/potistudio/Toroserver-Workspace-App",
-  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,6 +7,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
     "@tsconfig/svelte": "^5.0.4",
+    "@types/node": "^20.12.2",
     "sass": "^1.72.0",
     "svelte": "^4.2.12",
     "svelte-check": "^3.6.8",
