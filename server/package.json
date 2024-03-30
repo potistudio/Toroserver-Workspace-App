@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npm start"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
