@@ -13,9 +13,8 @@
     "npm": "please_use_pnpm_instead"
   },
   "scripts": {
-    "dev:client": "npm run --prefix client dev",
-    "dev:server": "npm run --prefix server dev",
-    "build": "npm run --prefix client build",
+    "client": "pnpm --filter \"client\"",
+    "server": "pnpm --filter \"server\"",
     "tunnel": "cloudflared tunnel --url http://localhost:5173"
   },
   "dependencies": {
