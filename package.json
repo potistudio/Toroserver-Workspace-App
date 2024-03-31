@@ -4,10 +4,9 @@
   "author": "POTI",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "repository": "https://github.com/potistudio/Toroserver-Workspace-App",
   "scripts": {
-    "client": "pnpm --filter \"client\"",
-    "server": "pnpm --filter \"server\"",
     "tunnel": "cloudflared tunnel --url http://localhost:5173"
   },
   "dependencies": {
