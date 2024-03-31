@@ -5,13 +5,6 @@
   "license": "MIT",
   "private": true,
   "repository": "https://github.com/potistudio/Toroserver-Workspace-App",
-  "packageManager": "pnpm@8.15.5",
-  "engines": {
-    "node": ">=20.9.0",
-    "pnpm": ">=8.15.5",
-    "yarn": "please_use_pnpm_instead",
-    "npm": "please_use_pnpm_instead"
-  },
   "scripts": {
     "client": "pnpm --filter \"client\"",
     "server": "pnpm --filter \"server\"",
