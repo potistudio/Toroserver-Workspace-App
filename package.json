@@ -1,20 +1,27 @@
 {
-	"name": "toroserver-workspace-app",
-	"version": "1.0.0",
-	"author": "POTI",
-	"license": "MIT",
-	"private": true,
-	"repository": "https://github.com/potistudio/Toroserver-Workspace-App",
-	"scripts": {
-		"dev:client": "npm run --prefix client dev",
-		"dev:server": "npm run --prefix server dev",
-		"build": "npm run --prefix client build",
-		"tunnel": "cloudflared tunnel --url http://localhost:5173"
-	},
-	"dependencies": {
-		"@discord/embedded-app-sdk": "^1.1.0"
-	},
-	"devDependencies": {
-		"npm-run-all": "^4.1.5"
-	}
+  "name": "toroserver-workspace-app",
+  "version": "1.0.0",
+  "author": "POTI",
+  "license": "MIT",
+  "private": true,
+  "repository": "https://github.com/potistudio/Toroserver-Workspace-App",
+  "packageManager": "pnpm@8.15.5",
+  "engines": {
+    "node": ">=20.9.0",
+    "pnpm": ">=8.15.5",
+    "yarn": "please_use_pnpm_instead",
+    "npm": "please_use_pnpm_instead"
+  },
+  "scripts": {
+    "dev:client": "npm run --prefix client dev",
+    "dev:server": "npm run --prefix server dev",
+    "build": "npm run --prefix client build",
+    "tunnel": "cloudflared tunnel --url http://localhost:5173"
+  },
+  "dependencies": {
+    "@discord/embedded-app-sdk": "^1.1.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
 }
