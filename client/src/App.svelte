@@ -1,12 +1,14 @@
 
-<script lang="ts"></script>
+<script lang="ts">
+	let alreadyExists = false;
+</script>
 
 <main>
 	<h1>Hello World</h1>
 
-	<form action="/api" method="POST">
-		<input type="text" name="a" id="a">
-		<button type="button"></button>
+	<form action="/api" method="POST" on:submit={() => alreadyExists = true}>
+		<input type="text" name="title" />
+		<button type="submit">{ alreadyExists ? "Exit" : "Entry" }</button>
 	</form>
 </main>
 
