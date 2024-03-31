@@ -8,6 +8,7 @@
 	"scripts": {
 		"dev:client": "npm run --prefix client dev",
 		"dev:server": "npm run --prefix server dev",
+		"build": "npm run --prefix client build",
 		"tunnel": "cloudflared tunnel --url http://localhost:5173"
 	},
 	"dependencies": {
