@@ -1,12 +1,18 @@
 
 <script lang="ts">
+	import { enhance } from "$app/forms";
+
 	let alreadyExists = false;
 </script>
+
+<svelte:head>
+	<title>とろサー作業部屋 Discordアプリ</title>
+</svelte:head>
 
 <main>
 	<h1>Hello World</h1>
 
-	<form action="/api" method="POST" on:submit={() => alreadyExists = true}>
+	<form method="POST" use:enhance on:submit={() => alreadyExists = true}>
 		<input type="text" name="title" />
 		<button type="submit">{ alreadyExists ? "Exit" : "Entry" }</button>
 	</form>

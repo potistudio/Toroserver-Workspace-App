@@ -7,14 +7,18 @@
   "type": "module",
   "repository": "https://github.com/potistudio/Toroserver-Workspace-App",
   "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
     "tunnel": "cloudflared tunnel --url http://localhost:5173"
   },
   "dependencies": {
     "@discord/embedded-app-sdk": "^1.1.0"
   },
   "devDependencies": {
+    "@sveltejs/adapter-auto": "^3.2.0",
     "@sveltejs/adapter-vercel": "^5.2.0",
     "@sveltejs/kit": "^2.5.5",
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
     "sass": "^1.72.0",
     "svelte": "^4.2.12",
     "svelte-check": "^3.6.8",
